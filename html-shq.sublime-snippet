@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<section data-markdown>
+  # Questions?
+</section>
+]]></content>
+  <tabTrigger>shq</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

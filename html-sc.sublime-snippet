@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+<section>
+  <h3>$1</h3>
+
+  <p>$2</p>
+
+  <pre>
+    <code class='$3'>
+$4
+    </code>
+  </pre>
+</section>
+]]></content>
+  <tabTrigger>sc</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

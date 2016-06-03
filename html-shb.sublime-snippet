@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<section data-markdown>
+  #Break
+  ##15 minutes
+</section>
+]]></content>
+  <tabTrigger>shb</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

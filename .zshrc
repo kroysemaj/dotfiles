@@ -1,6 +1,5 @@
+[ -s "/Users/james/.nvm/nvm.sh" ] && . "/Users/james/.nvm/nvm.sh" # This loads nvm
 NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules
-#closure path for closure compiler builds
-export CLOSURE_PATH=/usr/local/Cellar/closure-compiler/20140814/libexec
 
 # Easier navigation: .., ..., ~ and -
 alias ..="cd .."
@@ -14,23 +13,22 @@ alias lock="pmset sleepnow"
 alias fucking="sudo"
 
 #handy dandy doodads
-alias p='cd ~/Projects'
-alias r='cd ~/Projects/reserved-apps'
-alias pers='cd ~/Projects/personal'
-alias play='cd ~/Projects/playground'
-alias prod='cd ~/Projects/prod-apps'
-alias books='cd ~/Projects/prod-apps/audiobooks.com'
+alias p='cd ~/Documents/Projects'
 alias nope='git reset --hard'
 alias hosts='subl /private/etc/hosts'
 alias noicons='defaults write com.apple.finder CreateDesktop -bool false && killall Finder'
 alias icons='defaults write com.apple.finder CreateDesktop -bool true && killall Finder'
+alias go='git checkout '
+alias get='git '
+alias got='git '
+alias newjas='git clone https://github.com/kroysemaj/jasmine-seed.git; cd jasmine-seed; npm install;'
+alias bs='browser-sync start --server --files "."'
 
 #programs
-alias subl='open -a "Sublime Text"'
+alias subl='open -a "Sublime Text.app"'
 alias winery='sudo weinre --boundHost 172.17.0.2 --httpPort 80'
-alias funcjs='functional-javascript-workshop'
+alias funcjs='functional-javascript'
 
-[ -s "/Users/jamesyork/.nvm/nvm.sh" ] && . "/Users/jamesyork/.nvm/nvm.sh" # This loads nvm
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -87,7 +85,7 @@ plugins=(git ruby golang scala gem history history-substring-search terminalapp 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/share/npm/bin:$PATH"
+export PATH="~/bin/subl:/Applications/Postgres.app/Contents/Versions/9.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/share/npm/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment

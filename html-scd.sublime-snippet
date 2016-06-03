@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+<section>
+  <h3>$1</h3>
+
+  <p>$2</p>
+
+  <pre>
+    <code class='html'>
+$3
+    </code>
+  </pre>
+  <h2><a href="$4" target="_blank">DEMO</a></h2>
+</section>
+]]></content>
+  <tabTrigger>scd</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

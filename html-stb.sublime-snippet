@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<section data-markdown class='table-32px'>
+  ### $1
+
+  $2 | $3
+  --- | ---
+  $4 | $5
+</section>
+]]></content>
+  <tabTrigger>stb</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

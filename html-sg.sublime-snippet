@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<section data-markdown>
+  ##Goals for this session
+  1. $1
+  1. $2
+  1. $3
+</section>
+]]></content>
+  <tabTrigger>sg</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

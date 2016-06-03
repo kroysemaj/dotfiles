@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<section data-markdown>
+  # $1
+</section>
+]]></content>
+  <tabTrigger>sh</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

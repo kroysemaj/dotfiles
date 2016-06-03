@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+<section data-markdown>
+  # Exercise
+  ### $1
+</section>
+<section>
+  <img src="images/15mins.png" alt="30 minutes" class='timer'>
+  <h2>$2</h2>
+
+  <p></p>
+
+  <ul>
+    <li>$3</li>
+  <ul>
+</section>
+]]></content>
+  <tabTrigger>se</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

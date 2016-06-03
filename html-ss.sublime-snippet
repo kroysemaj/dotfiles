@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<section data-markdown class='align-left'>
+  ### $1
+
+  $2
+</section>
+]]></content>
+  <tabTrigger>ss</tabTrigger>
+  <scope>text.html</scope>
+</snippet>
